@@ -121,9 +121,7 @@ export const Character = () => {
         <shadowMaterial transparent opacity={0.75} />
       </mesh>
       <SoftShadows size={40} samples={16} />
-      <EffectComposer disableNormalPass multisampling={4}>
-        <TiltShift2 blur={0.5} />
-      </EffectComposer>
+    
     </Canvas>
   )
 }
